@@ -29,14 +29,12 @@ Notes and small details
 - The design uses a dark theme with green accents intended to match the included background artwork.
 - Hovering over exercise cards plays a small sound; there is currently no UI to disable it. If you want that added, I can include a toggle to mute sounds for accessibility.
 - There is a `script.js` file in the repository containing earlier combined examples; the active pages each load their own `exerciseX.js` files.
+Notes
+-----
+- The site uses a dark theme with green accents to match the included background artwork.
+- Hovering over exercise cards plays a short sound effect.
+- There is a legacy `script.js` file with combined examples; each exercise page loads its own `exerciseX.js` file.
 
-Suggested next steps
---------------------
-- Add a `README` section describing each exercise in more detail.
-- Create a `favicon.ico` for better cross-browser support (optional).
-- Move repeated inline styles from exercise pages into `styles.css` to avoid duplication.
-- Add a small accessibility control to disable the hover sound effect.
-
-License
--------
-This repo does not include a license file. Add one if you intend to reuse or share the code publicly.
+Contributing
+------------
+If you want to suggest changes or improvements, open an issue or submit a pull request. For small edits (styling, accessibility, or adding exercises) a short description of the change is sufficient.
