@@ -48,10 +48,20 @@
                 <div class='exercise-card coming-soon'>
                     <span class='number'>06</span>
                     <h3>Coming Soon</h3>
-                    <p>Stay tuned...</p>
+                    <p>Present day, present time, hahahaha</p>
                 </div>
             </div>
         </main>
     </div>
+    <script>
+        const cards = document.querySelectorAll('.exercise-card:not(.coming-soon)');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBTGH0fPTgjMGHm7A7+OZQA0PVq3n77BgGgk+ltzzxnMpBSh+zPDajzsIDmS57OihUBELTKXh8bllHAU2jtXzzn0vBSt7ye/ekj0IFmm+7+WdSg8MUqvl8LZiFwc5kdnzyXcsBS1+zPDakjsIDGO56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4MUqzl8LZiGAc5kdnzyXcsBS1+zPDakjsIDGS56+mjUhEKTKXi8bllHAU3j9b0z38wBSt7ye/ekTsIFmm+7+WdSg4M');
+                audio.volume = 0.2;
+                audio.play().catch(() => {});
+            });
+        });
+    </script>
 </body>
 </html>
